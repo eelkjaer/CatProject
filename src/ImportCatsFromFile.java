@@ -7,7 +7,6 @@ public class ImportCatsFromFile {
     public int importCatsFromFile(String filename, CatCompound catCompound) throws FileNotFoundException {
         //chipid,name,breed
         //42,Abba,Abyssinian
-        //Cat(int chipId, String catName, String catBreed)
 
         File fh = new File(filename);
         int numberofCats = 0;

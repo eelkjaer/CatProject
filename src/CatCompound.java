@@ -26,10 +26,6 @@ public class CatCompound {
 
     @Override
     public String toString() {
-        String str = "Compound " + this.compInstId + " (" + this.compoundName + ")\nCats:\n";
-
-        str += cats;
-
-        return str;
+        return "Compound " + this.compInstId + " (" + this.compoundName + ")\nCats:" + cats;
     }
 }
