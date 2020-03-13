@@ -47,4 +47,11 @@ public class Cat {
     public int hashCode() {
         return chipId;
     }
+
+    @Override
+    public String toString(){
+        return "\n\nChip-ID: " + this.chipId
+                + "\nName: " + this.catName
+                + "\nBreed: " + this.catBreed;
+    }
 }
