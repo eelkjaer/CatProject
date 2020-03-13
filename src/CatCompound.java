@@ -15,6 +15,7 @@ public class CatCompound {
         compId++;
     }
 
+
     public void addCatToCompound(Cat cat){
         if(cats.contains(cat)){
             System.out.println("Cat already in compound " + cat.getCatName());
@@ -23,4 +24,12 @@ public class CatCompound {
         }
     }
 
+    @Override
+    public String toString() {
+        return "CatCompound{" +
+                "compInstId=" + compInstId +
+                ", compoundName='" + compoundName + '\'' +
+                ", cats=" + cats +
+                '}';
+    }
 }
